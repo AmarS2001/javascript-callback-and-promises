@@ -1,0 +1,11 @@
+<script>
+promise2 = new Promise(function(resolve, reject) {
+  setInterval(function() {
+    resolve({
+      message: "I like to keep up my word",
+      code: "Hurray"
+    });
+  }, 1000);
+});
+console.log(promise2);
+</script>
